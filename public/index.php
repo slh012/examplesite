@@ -7,13 +7,11 @@ try{
 
 	
 	page::assign('title','PAGE TITLE UNSET');
-        //page::assignLoadFile('template', 'templates/16-8.html');
+       
 	page::assignLoadFile('content', 'htmlblocks/index.html');
         
         
-        //$ua = new userActivity();
-        //$list = $ua->listRecipes();
-        //page::assign('list_of_activities',$list);
+       
  
 
         include_once('footer.inc.php');
