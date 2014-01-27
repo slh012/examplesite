@@ -1,0 +1,9 @@
+#only add rules in here for quick testing.  Move into /etc/apache2/sites-available/examplesite.conf once rules are working
+RewriteEngine on
+Options +FollowSymlinks
+
+#	sets base as root
+RewriteBase /
+
+#IndexIgnore */*
+ErrorDocument 404 /404.php
