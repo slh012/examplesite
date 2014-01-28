@@ -21,7 +21,7 @@ mysql::i(config::get('mysql_conn'));
 /*
 * Automatically set the javascript files to their min counterparts when not in DEV mode
 */
-$minjs = (ENV == 'DEV')? '.min':'';
+$minjs = (ENV == 'DEV')? '':'.min';
 page::assign('minjs',$minjs);
 
 /*
